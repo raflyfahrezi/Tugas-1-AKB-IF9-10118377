@@ -2,9 +2,13 @@ package com.example.tugas1_akb_if9_10118377;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 public class LoginActivity extends AppCompatActivity {
+    Button registerText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -12,5 +16,18 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         getSupportActionBar().hide();
+
+        // Initialize
+        registerText = findViewById(R.id.registerText);
+
+        // Register Text Handler onClick
+        registerText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentToRegister = new Intent(LoginActivity.this, RegisterActivity.class);
+
+                startActivity(intentToRegister);
+            }
+        });
     }
 }
