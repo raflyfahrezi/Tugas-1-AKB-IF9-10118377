@@ -44,9 +44,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:backgroundTint="@color/unique"
-            android:textColor="@color/body"
-            android:text="Login"/>
+            android:text="Login"
+            style="@style/myButton"/>
 
         <TextView
             android:layout_width="match_parent"
