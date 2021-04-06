@@ -10,10 +10,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity {
     TextView registerText;
+    Button loginButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +26,7 @@ public class LoginActivity extends AppCompatActivity {
 
         // Initialize
         registerText = findViewById(R.id.registerText);
+        loginButton = findViewById(R.id.loginButton);
 
         // Register Text Handler onClick
         registerText.setOnClickListener(new View.OnClickListener() {
@@ -32,6 +35,17 @@ public class LoginActivity extends AppCompatActivity {
                 Intent intentToRegister = new Intent(LoginActivity.this, RegisterActivity.class);
 
                 startActivity(intentToRegister);
+            }
+        });
+
+        // Login Button Handler onClick
+        loginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentToMain = new Intent(LoginActivity.this, MainActivity.class);
+
+                startActivity(intentToMain);
+                finish();
             }
         });
     }
