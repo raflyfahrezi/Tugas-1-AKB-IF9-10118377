@@ -10,8 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tugas1AKBIF910118377">
         <activity
-            android:name=".SplashActivity"
-            android:theme="@style/SplashScreenStyle"></activity>
+            android:name=".SplashActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
