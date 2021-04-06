@@ -24,8 +24,10 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email"
             android:background="@drawable/edit_text_background"
+            android:hint="Email"
+            android:maxLines="1"
+            android:inputType="text"
             style="@style/myEditTextPrimary" />
 
         <EditText
@@ -33,6 +35,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:hint="Password"
+            android:maxLines="1"
+            android:inputType="textPassword"
             android:background="@drawable/edit_text_background"
             style="@style/myEditTextPrimary" />
 
