@@ -11,7 +11,7 @@
         android:theme="@style/Theme.Tugas1AKBIF910118377">
         <activity
             android:name=".SplashActivity"
-            android:theme="@style/SplashScreenStyle"/>
+            android:theme="@style/SplashScreenStyle"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
