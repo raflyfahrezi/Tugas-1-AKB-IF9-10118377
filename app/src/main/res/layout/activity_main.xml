@@ -7,6 +7,40 @@
     tools:context=".MainActivity"
     style="@style/myBody">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:src="@drawable/logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/myEditTextPrimary" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/myEditTextPrimary" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Login"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Don't have account ?"
+            android:gravity="center"
+            style="@style/myTextPrimary"/>
+    </LinearLayout>
 
 
 </RelativeLayout>
