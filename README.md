@@ -1,4 +1,4 @@
-# Tugas 1 Aplikasi Komputersi Bergerak IF9 10118377
+# Tugas 1 Aplikasi Komputasi Bergerak IF9 10118377
 
 ### Identity
 
