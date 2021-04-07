@@ -1,5 +1,13 @@
 # Tugas 1 Aplikasi Komputersi Bergerak IF9 10118377
 
+### Identity
+
+- ID       : 10118377
+- Name     : Farhan Rafly Fahrezi Saepulloh
+- Class    : IF 9
+- Subject  : Aplikasi Komputer Bergerak
+- Lecturer : Alif Finandhita, S.Kom, M.T
+
 ### Problems
 
 Buat project antarmuka aplikasi dengan mengimplementasikan konsep Android Activity dan Intent. Antarmuka yang harus dibuat pada aplikasi adalah sebagai berikut :
