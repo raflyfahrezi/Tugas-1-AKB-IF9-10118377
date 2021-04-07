@@ -2,11 +2,11 @@
 
 ### Identity
 
-- ID       : 10118377
-- Name     : Farhan Rafly Fahrezi Saepulloh
-- Class    : IF 9
-- Subject  : Aplikasi Komputer Bergerak
-- Lecturer : Alif Finandhita, S.Kom, M.T
+- NIM : 10118377
+- Nama : Farhan Rafly Fahrezi Saepulloh
+- Kelas : IF 9
+- Matakuliah : Aplikasi Komputer Bergerak
+- Dosen : Alif Finandhita, S.Kom, M.T
 
 ### Problems
 
