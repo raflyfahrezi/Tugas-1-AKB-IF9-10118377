@@ -19,4 +19,6 @@ Buat project antarmuka aplikasi dengan mengimplementasikan konsep Android Activi
 
 ### Demo
 
-![Concept](https://firebasestorage.googleapis.com/v0/b/data-center-production.appspot.com/o/random%2FAndroid%20Emulator%20-%20Pixel_3a_API_30_x86_5554%202021-04-07%2009-40-33.mp4?alt=media&token=44a9515a-6904-4889-89fe-39a63a07aa54 "Demo")
+![Demo](https://media.giphy.com/media/HWy6WBmfwt6b7AGGyT/giphy.gif "Demo")
+
+Full Demo : [demo.mp4](https://firebasestorage.googleapis.com/v0/b/data-center-production.appspot.com/o/random%2FAndroid%20Emulator%20-%20Pixel_3a_API_30_x86_5554%202021-04-07%2009-40-33.mp4?alt=media&token=44a9515a-6904-4889-89fe-39a63a07aa54)
